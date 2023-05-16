@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Raleway', sans-serif;
+
+}
+body{
+    background-color: black;
+    
+}
+.landing{
+    background-color: black;
+    background-image: url("../media/KHAYELITSHA\ PREMIER\ LEAGUE\ BC.png") ;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    color: gold;
+    text-align: center;
+}
+.about{
+    color: gold;
+    height: 100vh; 
+    padding: 3rem;
+}
+.about p{
+    border: 2px solid white;
+    width:50%;
+    height:auto;
+    margin: auto;
+    font-size:3em;
+    text-align: center;
+    
+
+}
+
+.menu{
+    text-decoration: none;
+    color: crimson;
+    font-size: 3rem;
+
+}
+.menu:hover{
+    text-decoration: underline;
+    border-radius: 4px;
+    font-size: 3.6rem;
+}
+
+.contacts_header{
+    font-size: 3.6rem;
+    width: 100%;
+    text-align: center;
+    padding: 2rem;
+    color: crimson;
+}
+.contacts{
+    font-size: 2rem;
+    text-align: center;
+
+}
+.contacts a{
+    text-decoration: none;
+    color: #5a258b;
+    font-size: 3.1rem;
+}
